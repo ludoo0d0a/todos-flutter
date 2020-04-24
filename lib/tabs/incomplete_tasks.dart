@@ -1,3 +1,4 @@
+// lib/tabs/incomplete_tasks.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -10,8 +11,8 @@ class IncompleteTasksTab extends StatelessWidget {
     return Container(
       child: Consumer<TodosModel>(
         builder: (context, todos, child) => TaskList(
-              tasks: todos.incompleteTasks,
-            ),
+          tasks: todos.incompleteTasks,
+        ),
       ),
     );
   }

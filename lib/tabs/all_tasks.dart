@@ -10,8 +10,8 @@ class AllTasksTab extends StatelessWidget {
     return Container(
       child: Consumer<TodosModel>(
         builder: (context, todos, child) => TaskList(
-              tasks: todos.allTasks,
-            ),
+          tasks: todos.allTasks,
+        ),
       ),
     );
   }

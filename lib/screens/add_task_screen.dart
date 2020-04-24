@@ -50,8 +50,8 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                   CheckboxListTile(
                     value: completedStatus,
                     onChanged: (checked) => setState(() {
-                          completedStatus = checked;
-                        }),
+                      completedStatus = checked;
+                    }),
                     title: Text('Complete?'),
                   ),
                   RaisedButton(

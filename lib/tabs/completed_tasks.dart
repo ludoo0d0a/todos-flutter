@@ -1,3 +1,4 @@
+// lib/tabs/completed_tasks.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -10,8 +11,8 @@ class CompletedTasksTab extends StatelessWidget {
     return Container(
       child: Consumer<TodosModel>(
         builder: (context, todos, child) => TaskList(
-              tasks: todos.completedTasks,
-            ),
+          tasks: todos.completedTasks,
+        ),
       ),
     );
   }

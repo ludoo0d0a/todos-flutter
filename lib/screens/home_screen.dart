@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'package:todos/screens/add_task_screen.dart';
+
 import 'package:todos/tabs/all_tasks.dart';
 import 'package:todos/tabs/completed_tasks.dart';
 import 'package:todos/tabs/incomplete_tasks.dart';
@@ -10,8 +10,7 @@ class HomeScreen extends StatefulWidget {
   _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen>
-    with SingleTickerProviderStateMixin {
+class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateMixin {
   TabController controller;
 
   @override

@@ -1,15 +1,17 @@
 # todos
 
-Simple Todos app built with flutter.
-This app uses `provider` for state management.
+A Todos list with Provider, based on [Shakib Hossain tutorial](https://dev.to/shakib609/create-a-todos-app-with-flutter-and-provider-jdh)
+Just upgraded to provider 4.X
 
-This is the final app from the tutorial I wrote about how to create a Todos app with Flutter and Provider. You can read it [here](https://www.shakib609.gq/create-a-todos-app-with-flutter-and-provider) and follow along from there, or just take a look at the code yourself.
+## Getting Started
 
-## Setup
+This project is a starting point for a Flutter application.
 
-```
-$ git clone https://github.com/shakib609/todos-flutter.git
-$ cd todos-flutter
-$ flutter packages get
-$ flutter run
-```
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

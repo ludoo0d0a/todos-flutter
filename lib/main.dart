@@ -10,7 +10,7 @@ class TodosApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      builder: (context) => TodosModel(),
+      create: (context) => TodosModel(),
       child: MaterialApp(
         title: 'Todos',
         theme: ThemeData.dark(),
