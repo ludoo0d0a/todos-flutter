@@ -11,8 +11,16 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:todos/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('App renders smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(TodosApp());
+<<<<<<< HEAD
+=======
+
+    expect(find.text('Todos'), findsOneWidget);
+    expect(find.text('All'), findsOneWidget);
+    expect(find.text('Incomplete'), findsOneWidget);
+    expect(find.text('Complete'), findsOneWidget);
+>>>>>>> 4bdb3a0ce0aa238c8ad2c66cb32c4155d1f031f3
   });
 }
